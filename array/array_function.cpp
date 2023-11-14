@@ -28,6 +28,7 @@ int main() {
 
     inputArray(arr, size);
     printArray(arr, size);
+    cout<<"Size of the array"<<sizeof(arr)/sizeof(int) <<endl;
 
     return 0;
 }
