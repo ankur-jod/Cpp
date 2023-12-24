@@ -16,13 +16,13 @@ void bubbleSort(int arr[], int n) {
 
 int main() {
     int n;
-    cout << "Enter the size of the array: ";
+    cout << "Enter the size of the array: "; 
     cin >> n;
 
     int arr[n];
     cout << "Enter the elements of the array: ";
     for (int i = 0; i < n; i++) {
-        cin >> arr[i];
+        cin >> arr[i]; 
     }
 
     bubbleSort(arr, n);
@@ -35,4 +35,3 @@ int main() {
 
     return 0;
 }
-7788971
