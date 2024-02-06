@@ -49,7 +49,7 @@ int main() {
     int** matrix = new int*[size];
     for (int i = 0; i < size; i++) {
         matrix[i] = new int[size];
-    }
+    }   
     
     // Fill matrix
     std::cout << "Enter the elements of the matrix:" << std::endl;
@@ -57,7 +57,7 @@ int main() {
         for (int j = 0; j < size; j++) {
             std::cin >> matrix[i][j];
         }
-    }
+    } 
     
     // Calculate determinant
     int det = determinant(matrix, size);

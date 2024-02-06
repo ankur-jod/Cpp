@@ -15,7 +15,7 @@ int main() {
     std::cin >> rows;
 
     std::cout << "Enter the number of columns: ";
-    std::cin >> cols;
+    std::cin >> cols ;
 
     int** matrix = new int*[rows];
     int** transposedMatrix = new int*[cols];
