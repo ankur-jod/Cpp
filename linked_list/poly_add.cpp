@@ -21,6 +21,7 @@ Term* createPolynomial() {
     return poly;
 }
 
+
 int main() {
     // Create the first polynomial
     std::cout << "Enter the first polynomial:\n";
